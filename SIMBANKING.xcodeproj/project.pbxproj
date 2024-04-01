@@ -14,6 +14,10 @@
 		0498E1472BBAC94100CE8429 /* SIMBANKINGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498E1462BBAC94100CE8429 /* SIMBANKINGTests.swift */; };
 		0498E1512BBAC94100CE8429 /* SIMBANKINGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498E1502BBAC94100CE8429 /* SIMBANKINGUITests.swift */; };
 		0498E1532BBAC94100CE8429 /* SIMBANKINGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498E1522BBAC94100CE8429 /* SIMBANKINGUITestsLaunchTests.swift */; };
+		0498E1672BBACAFD00CE8429 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498E1662BBACAFD00CE8429 /* SignUp.swift */; };
+		0498E1692BBADDCA00CE8429 /* TopBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498E1682BBADDCA00CE8429 /* TopBarItems.swift */; };
+		0498E16B2BBB015300CE8429 /* CustomerBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498E16A2BBB015300CE8429 /* CustomerBottomView.swift */; };
+		0498E16D2BBB040900CE8429 /* dataBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498E16C2BBB040900CE8429 /* dataBottom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		0498E14C2BBAC94100CE8429 /* SIMBANKINGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMBANKINGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498E1502BBAC94100CE8429 /* SIMBANKINGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIMBANKINGUITests.swift; sourceTree = "<group>"; };
 		0498E1522BBAC94100CE8429 /* SIMBANKINGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIMBANKINGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0498E1662BBACAFD00CE8429 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		0498E1682BBADDCA00CE8429 /* TopBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarItems.swift; sourceTree = "<group>"; };
+		0498E16A2BBB015300CE8429 /* CustomerBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerBottomView.swift; sourceTree = "<group>"; };
+		0498E16C2BBB040900CE8429 /* dataBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataBottom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,11 @@
 		0498E1342BBAC93B00CE8429 /* SIMBANKING */ = {
 			isa = PBXGroup;
 			children = (
+				0498E1632BBACA1C00CE8429 /* SubViews */,
+				0498E1622BBAC9F900CE8429 /* APIs */,
+				0498E1612BBAC9EC00CE8429 /* Modals */,
+				0498E1602BBAC9DC00CE8429 /* Components */,
+				0498E15F2BBAC9BD00CE8429 /* Views */,
 				0498E1352BBAC93B00CE8429 /* SIMBANKINGApp.swift */,
 				0498E1372BBAC93B00CE8429 /* ContentView.swift */,
 				0498E1392BBAC94000CE8429 /* Assets.xcassets */,
@@ -125,6 +138,45 @@
 				0498E1522BBAC94100CE8429 /* SIMBANKINGUITestsLaunchTests.swift */,
 			);
 			path = SIMBANKINGUITests;
+			sourceTree = "<group>";
+		};
+		0498E15F2BBAC9BD00CE8429 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0498E1662BBACAFD00CE8429 /* SignUp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0498E1602BBAC9DC00CE8429 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0498E1682BBADDCA00CE8429 /* TopBarItems.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0498E1612BBAC9EC00CE8429 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				0498E16A2BBB015300CE8429 /* CustomerBottomView.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		0498E1622BBAC9F900CE8429 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				0498E16C2BBB040900CE8429 /* dataBottom.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		0498E1632BBACA1C00CE8429 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0498E16B2BBB015300CE8429 /* CustomerBottomView.swift in Sources */,
 				0498E1382BBAC93B00CE8429 /* ContentView.swift in Sources */,
+				0498E16D2BBB040900CE8429 /* dataBottom.swift in Sources */,
+				0498E1672BBACAFD00CE8429 /* SignUp.swift in Sources */,
+				0498E1692BBADDCA00CE8429 /* TopBarItems.swift in Sources */,
 				0498E1362BBAC93B00CE8429 /* SIMBANKINGApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
